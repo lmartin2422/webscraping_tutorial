@@ -14,6 +14,7 @@ with open('home.html', 'r') as html_file:
     # the above searches for all occurrences of a specific parameters
     # print(tags)
 
+
     for content in tags:
         print(content.text)
         # the above 'for loop' shows the content within a tag
